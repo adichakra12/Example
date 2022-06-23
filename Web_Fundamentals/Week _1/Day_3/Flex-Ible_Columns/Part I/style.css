@@ -1,0 +1,12 @@
+.col{
+    background-color: darkcyan;
+    margin: 10px;
+    flex:1;
+    color:whitesmoke;
+    height: 20px;
+    text-align: start;
+    padding: 10px;
+}
+.row{
+    display:flex;
+}

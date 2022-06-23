@@ -1,0 +1,54 @@
+.row4 {
+    display:flex;
+}
+.row3{
+    display:flex;
+}
+.row5{
+    display:flex;
+}
+.col{
+    background-color: darkcyan;
+    margin: 10px;
+    flex:1;
+    color:whitesmoke;
+    height: 20px;
+    text-align: start;
+    padding: 10px;
+}
+.col-onethird{
+    background-color: darkcyan;
+    margin: 10px;
+    flex:1;
+    color:whitesmoke;
+    height: 20px;
+    text-align: start;
+    padding: 10px;
+}
+.col-twothird{
+    background-color: darkcyan;
+    margin: 10px;
+    flex:2;
+    color:whitesmoke;
+    height: 20px;
+    text-align: start;
+    padding: 10px;
+}
+.col-threefifth{
+    background-color: darkcyan;
+    margin: 10px;
+    flex:1.5;
+    color:whitesmoke;
+    height: 20px;
+    text-align: start;
+    padding: 10px;
+}
+.col-twofifth{
+    background-color: darkcyan;
+    margin: 10px;
+    flex:1;
+    color:whitesmoke;
+    height: 20px;
+    text-align: start;
+    padding: 10px;
+}
