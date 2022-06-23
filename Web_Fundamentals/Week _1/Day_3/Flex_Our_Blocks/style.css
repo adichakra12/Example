@@ -1,45 +1,43 @@
 .container{
-    width:950px;
-    height:700px;
+    width: 950px;
     background-color: silver;
     margin: 10px;
-    padding: 5px;
-    display:inline-block;
-
+    padding: 10px;
 }
 .top-nav {
     height: 150px;
     background-color: green;
-    margin: 8px;
-    display: block;
+    margin: 10px;
+    width: 910px;
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
-    display: inline-block;
-    margin: 10px 8px;
+    margin: 10px 0px;
 }
 .main {
     height: 400px;
-    width: 700px;
+    width: 800px;
     background-color: red;
-    padding-top: 20px;
-    padding-left: 10px;
-    display: inline-block;
-    margin: 10px;
+    margin: 10px 20px;
+    display: inline;
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
-    display: inline-block;
-    margin: 0px 5px;
+    display: inline;
+    margin: 6px;
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin: 20px 5px;
+    margin: 16px;
+}
+.row {
+    display: flex;
+    margin: 10px;
 }
 
