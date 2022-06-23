@@ -1,0 +1,36 @@
+div {
+    text-align:center;
+    color:darkslategrey;
+}
+.first-row {
+    background-color:cornflowerblue;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+img {
+    height:250px;
+    width:250px;
+    margin: 100px;
+}
+.second-row {
+    background-color:darksalmon;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.third-row{
+    background-color:blanchedalmond;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
