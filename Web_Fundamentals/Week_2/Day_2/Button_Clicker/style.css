@@ -143,9 +143,9 @@
 .dojonary{
     height: 150px;
     width: 250px;
-    position: absolute;
-    top: 118px;
-    left: 817px;
+    position: relative;
+    top: -327px;
+    left: 1050px;
     border: 2px solid black;
 }
 
