@@ -1,0 +1,192 @@
+.wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav{
+    height: 50px;
+    width: 800px;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav h1{
+    margin-left: 20px;
+}
+
+.feed{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    position: relative;
+    height: 280px;
+    width: 180px;
+    border: 2px solid black;
+    top:24px;
+    left: 80px;
+    display: block;
+}
+
+.profile img{
+    height: 85px;
+    width: 85px;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.profile a{
+    margin-left: 40px;
+    text-align: center;
+}
+
+.profile h2{
+    text-align: center;
+}
+
+.containers{
+    display: block;
+    position: relative;
+    top: -280px;
+}
+
+.container1{
+    height: 150px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+    left: 357px;
+}
+
+.topCon1{
+    display: inline-flex;
+}
+
+.topLeftCon1{
+    width: 280px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.topLeftCon1 h2{
+    margin-left: 20px;
+}
+
+.topRightCon1{
+    width:220px;
+    height:50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#likes1{
+    margin-left: 5px;
+}
+
+.botCon1 p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container2{
+    height: 150px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+    left: 357px;
+}
+
+.topCon2{
+    display: inline-flex;
+}
+
+.topLeftCon2{
+    width: 280px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.topLeftCon2 h2{
+    margin-left: 20px;
+}
+
+.topRightCon2{
+    width:220px;
+    height:50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#likes2{
+    margin-left: 5px;
+}
+
+.botCon2 p{
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.container3{
+    height: 150px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+    left: 357px;
+    
+}
+
+.topCon3{
+    display: inline-flex;
+}
+
+.topLeftCon3{
+    width: 280px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.topLeftCon3 h2{
+    margin-left: 20px;
+}
+
+.topRightCon3{
+    width:220px;
+    height:50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#likes3{
+    margin-left: 5px;
+}
+
+.botCon3 p{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(255, 211, 52);
+    box-shadow: 2px 2px black;
+}

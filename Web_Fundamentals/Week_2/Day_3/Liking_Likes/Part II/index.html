@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <h1>Network</h1>
+        </div>
+        <div class="feed">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="content">
+            <div class="profile">
+                <img src="user circle.png" alt="">
+                <a href="">Add an Avatar</a>
+                <h2>James Doe</h3>
+            </div>
+            <div class="containers">
+                <div class="container1">
+                    <div class="topCon1">
+                        <div class="topLeftCon1">
+                            <h2>Neil M</h2>
+                        </div>
+                        <div class="topRightCon1">
+                            <h4><span id="numLikes1">9</span> <span id="likes1">Like(s)</span></h4>
+                            <button onclick="incrementLike1()">Like</button>
+                        </div>
+                    </div>
+                    <div class="botCon1">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="topCon2">
+                        <div class="topLeftCon2">
+                            <h2>Nicole K</h2>
+                        </div>
+                        <div class="topRightCon2">
+                            <h4><span id="numLikes2">12</span> <span id="likes2">Like(s)</span></h4>
+                            <button onclick="incrementLike2()">Like</button>
+                        </div>
+                    </div>
+                    <div class="botCon2">
+                        <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="container3">
+                    <div class="topCon3">
+                        <div class="topLeftCon3">
+                            <h2>Jim R</h2>
+                        </div>
+                        <div class="topRightCon3">
+                            <h4><span id="numLikes3">9</span> <span id="likes3">Like(s)</span></h4>
+                            <button onclick="incrementLike3()">Like</button>
+                        </div>
+                    </div>
+                    <div class="botCon3">
+                        <p>I can't stop listening to the  <a href="">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

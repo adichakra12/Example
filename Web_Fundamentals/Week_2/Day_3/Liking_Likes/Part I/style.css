@@ -1,0 +1,16 @@
+.container{
+    height: 150px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.container h2, h4, button{
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+#likes{
+    margin-left: 5px;
+}
